@@ -6,26 +6,27 @@ body{
  padding-bottom:8px;
 }
 .label{
-    color: rgb(245, 11, 11);
+    color:white;
 }
 .main{
-    color: rgb(7, 7, 7);
+    color:red;
     font-size: 30px;
     font-weight: bold;
     
 }
 .main:hover{
     color:blue;
-    background-color: yellow;
-    font-weight: bolder;
+    background-image: linear-gradient(rgb(241, 240, 243),rgb(0, 255, 76)
+    );
+    font-weight: bold;
     
 }
 .ancher{
-    color: rgb(8, 8, 8);
+    color:red;
 }
 .ancher:hover{
     color:blue;
-    font-weight: bolder;
+    font-weight: bold;
     
 
 
