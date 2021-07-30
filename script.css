@@ -12,6 +12,8 @@ body{
     color:red;
     font-size: 30px;
     font-weight: bold;
+    background-image: linear-gradient(rgb(82, 0, 245),rgb(0, 162, 255)
+    );
     
 }
 .main:hover{
@@ -23,6 +25,8 @@ body{
 }
 .ancher{
     color:red;
+    background-image: linear-gradient(rgb(82, 0, 245),rgb(0, 162, 255)
+    );
 }
 .ancher:hover{
     color:blue;
@@ -33,6 +37,7 @@ body{
 }
 .div{
     margin-top: 10px;
+    padding-right:700px ;
 }
 
 .label{
