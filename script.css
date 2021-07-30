@@ -2,25 +2,38 @@ body{
     background-image: url('https://cdn1.vectorstock.com/i/1000x1000/97/85/breaking-news-background-breaking-news-studio-vector-27279785.jpg');
     background-repeat:inherit;
 }
+#myText{
+    padding-right: 90px; padding-bottom: 10px;
+    border: 15%;
+}
 .label{
     color: rgb(245, 11, 11);
 }
 .main{
-    color: rgb(255, 255, 255);
+    color: rgb(7, 7, 7);
+    text-shadow: orange;
     
 }
 .main:hover{
-    color:rgb(8, 8, 3);
-    background-color: wheat;
+    color:blue;
+    background-color: yellow;
+    font-weight: bolder;
+    
 }
 .ancher{
-    color: rgb(255, 255, 255);
+    color: rgb(8, 8, 8);
 }
 .ancher:hover{
-    color:rgb(8, 8, 3);
-    background-color: wheat;
+    color:blue;
+    font-weight: bolder;
+    
+
 
 }
-.div:hover{
- background-color: rgb(122, 122, 121);
+.div{
+    margin-top: 10px;
+}
+
+.label{
+    margin-top:10px;
 }
