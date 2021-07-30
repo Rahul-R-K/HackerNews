@@ -21,3 +21,6 @@ body{
     background-color: wheat;
 
 }
+.div:hover{
+ background-color: rgb(122, 122, 121);
+}
