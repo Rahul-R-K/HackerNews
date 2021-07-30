@@ -2,16 +2,16 @@ body{
     background-image: url('https://cdn1.vectorstock.com/i/1000x1000/97/85/breaking-news-background-breaking-news-studio-vector-27279785.jpg');
     background-repeat:inherit;
 }
-#myText{
-    padding-right: 90px; padding-bottom: 10px;
-    border: 15%;
+.myText{
+ padding-bottom:8px;
 }
 .label{
     color: rgb(245, 11, 11);
 }
 .main{
     color: rgb(7, 7, 7);
-    text-shadow: orange;
+    font-size: 30px;
+    font-weight: bold;
     
 }
 .main:hover{
