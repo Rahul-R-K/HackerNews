@@ -9,6 +9,7 @@ body{
     color:white;
 }
 .main{
+    margin-10px
     color:red;
     font-size: 30px;
     font-weight: bold;
