@@ -25,8 +25,6 @@ body{
 }
 .ancher{
     color:red;
-    background-image: linear-gradient(rgb(82, 0, 245),rgb(0, 162, 255)
-    );
 }
 .ancher:hover{
     color:blue;
