@@ -8,12 +8,12 @@ async function getData(){
     let data=await result.json();
     console.log(data);
 
-    let by=data.by; let id=data.id; let title=data.title; let score=data.score; let url=data.url
+    let by=data.by; let id=data.id; let title=data.title; let type=data.type; let url=data.url
     
-      console.log(by,id,title,score,url)  
+      console.log(by,id,title,type,url)  
       document.getElementsByClassName('main')[0].innerHTML="BY-"+by;
       document.getElementsByClassName('main')[1].innerHTML="TITLE -"+title;
-      document.getElementsByClassName('main')[2].innerHTML="SCORE -"+score;
+      document.getElementsByClassName('main')[2].innerHTML="TYPE -"+score;
       document.getElementsByClassName("main")[3].innerHTML=`<a class="ancher" href=${data.url}>URL-${data.url}</a>`;
     }
     catch{
