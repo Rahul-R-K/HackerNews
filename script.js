@@ -4,7 +4,7 @@ display=()=>{
 }
 async function getData(){
     num = document.getElementsByClassName('myText')[0].value;
-    let result=await fetch("https://hacker-news.firebaseio.com/v0/item/1.json?print=pretty")
+    let result=await fetch("https://hacker-news.firebaseio.com/v0/item/"+num+".json?print=pretty")
     let data=await result.json();
     //console.log(data);
 
